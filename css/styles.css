@@ -34,9 +34,13 @@ body
 .link {
     text-decoration: none; /*прибрали підкреслення у всіх посилань*/
     color: currentColor;
+	line-height: 1.5;
+	letter-spacing: 0.02m;
 }
 .list{
  	list-style: none; /*прибрали булети*/
+	font-style: normal;
+
 }
 
 .header{
@@ -49,9 +53,6 @@ body
 }
 .hero{
     background-color: var(--color-navy-blue);
-}
-.team{
-	background-color: #f4f4fd;
 }
 .btn{
 	background-color: var(--color-iris);
@@ -93,9 +94,7 @@ body
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
-	cursor: pointer
-
-
+	cursor: pointer;
 }
 .flrt:hover,
 .flrt:focus{
@@ -134,9 +133,9 @@ body
     color: var(--color-navy-blue);
     
 }
-.text-body
-.text-body-footer 
-.text-body-adr{
+.text-body,
+.text-body-footer, 
+.text-body-adr {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
@@ -187,7 +186,7 @@ body
 }
 .logo-f{
 	/*color: var(--color-iris);*/
-	color: var(--color-white);
+	color: var(--color-cloud);
 }
 
 .header-adr-item {
@@ -195,10 +194,13 @@ body
     color: currentColor;
     font-style: normal;
 }
-.header-adr-link {
-}
 .team{
-    text-align: center;
+	background-color: #f4f4fd;
+}
+.team-list{
+	background-color: var(--color-white);
+	text-align: center;
+
 }
 .footer-txt{
     color: var(--color-cloud);
