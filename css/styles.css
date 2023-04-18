@@ -23,6 +23,7 @@
 body 
 {
     color: var(--color-slate);
+	background-color: var(--color-white);
 
 	 /*fonts*/
 	font-family: 'Roboto', sans-serif;
@@ -49,6 +50,9 @@ body
 .hero{
     background-color: var(--color-navy-blue);
 }
+.team{
+	background-color: #f4f4fd;
+}
 .btn{
 	background-color: var(--color-iris);
 	color: var(--color-white);
@@ -57,13 +61,16 @@ body
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px
 
-	font-family: inherit;
+	/*font-family: inherit;*/
+	font-family: 'Roboto', sans-serif
 
 	font-weight: 500;
-	line-height: 1.6;
+	font-size: 16px;
+	line-height: 1.5;
 	letter-spacing: 0.04em;
     text-align: center;
 	display: flex;
+	cursor: pointer
 
 }
 .btn:hover,
@@ -86,6 +93,9 @@ body
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
+	cursor: pointer
+
+
 }
 .flrt:hover,
 .flrt:focus{
@@ -101,6 +111,7 @@ body
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 1.07;
+	letter-spacing: 0.02em;
     color: var(--color-white);
     text-align: center;
 }
@@ -108,6 +119,7 @@ body
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 1.11;
+	letter-spacing: 0.02em;
 	text-transform: capitalize;
     text-align: center;
     color: var(--color-navy-blue);
@@ -117,6 +129,7 @@ body
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
     text-align: left;
     color: var(--color-navy-blue);
     
@@ -124,12 +137,14 @@ body
 .text-body
 .text-body-footer 
 .text-body-adr{
-	line-height: 1.6;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
 .text-body-medium {
 	font-weight: 500;
-	line-height: 1.6;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	font-style: normal;
 	color: var(--color-navy-blue); 
 }
 .text-body-medium:hover,
@@ -152,7 +167,7 @@ body
 
 .logo {
     /* Studio */
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -161,15 +176,19 @@ body
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-navy-blue-modal);
+
+	color: var(--color-iris);
+  
 
 }
 .logo-w{
-	color: var(--color-iris);
+	/*color: var(--color-iris);*/
+	color: var(--color-navy-blue-modal);
 }
-/* Web 
-    color: --color-iris ; */
-
+.logo-f{
+	/*color: var(--color-iris);*/
+	color: var(--color-white);
+}
 
 .header-adr-item {
     text-decoration: none; /*прибрали підкреслення у всіх посилань*/
