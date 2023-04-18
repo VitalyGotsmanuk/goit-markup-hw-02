@@ -1,6 +1,6 @@
 /* Коментар Ctrl+/ */
 
-:root {
+:root{
 	--color-iris: #4d5ae5;
 	--color-ocean: #404bbf;
 	--color-navy-blue: #2e2f42;
@@ -19,9 +19,7 @@
 }
 
 /*Base style*/
-
-body 
-{
+body{
     color: var(--color-slate);
 	background-color: var(--color-white);
 
@@ -31,7 +29,7 @@ body
 
 }
 
-.link {
+.link{
     text-decoration: none; /*прибрали підкреслення у всіх посилань*/
     color: currentColor;
 	line-height: 1.5;
@@ -100,12 +98,9 @@ body
 	background-color: var(--color-ocean);
 	color: var(--color-white);
 }
-/*
-[type] {
+/* [type] {} */
 
-} */
-
-.hero-header {
+.hero-header{
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 1.07;
@@ -113,7 +108,7 @@ body
     color: var(--color-white);
     text-align: center;
 }
-.header-section {
+.header-section{
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 1.11;
@@ -123,7 +118,7 @@ body
     color: var(--color-navy-blue);
 
 }
-.header-small {
+.header-small{
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.2;
@@ -134,12 +129,12 @@ body
 }
 .text-body,
 .text-body-footer, 
-.text-body-adr {
+.text-body-adr{
 	font-style: normal;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
-.text-body-medium {
+.text-body-medium{
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -149,22 +144,22 @@ body
 .text-body-medium:hover,
 .text-body-medium:focus,
 .text-body-adr:hover,
-.text-body-adr:focus {
+.text-body-adr:focus{
 	color: var(--color-ocean);
 }
-.text-small {
+.text-small{
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 }
-.text-link {
+.text-link{
 	font-size: 12px;
 	line-height: 1.33;
 	letter-spacing: 0.04em;
 	text-decoration: underline;
 }
 
-.logo {
+.logo{
     /* Studio */
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -189,7 +184,7 @@ body
 	color: var(--color-cloud);
 }
 .header-adr,
-.header-adr-item {
+.header-adr-item{
     text-decoration: none; /*прибрали підкреслення у всіх посилань*/
     color: currentColor;
     font-style: normal;
