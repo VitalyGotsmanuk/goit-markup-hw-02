@@ -42,7 +42,6 @@ body
 	font-style: normal;
 
 }
-
 .header{
     background-color: var(--color-white);
 }
@@ -136,6 +135,7 @@ body
 .text-body,
 .text-body-footer, 
 .text-body-adr {
+	font-style: normal;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
@@ -188,7 +188,7 @@ body
 	/*color: var(--color-iris);*/
 	color: var(--color-cloud);
 }
-
+.header-adr,
 .header-adr-item {
     text-decoration: none; /*прибрали підкреслення у всіх посилань*/
     color: currentColor;
